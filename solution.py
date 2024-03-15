@@ -128,6 +128,8 @@ class NeuralNetwork(nn.Module):
     '''
     This class implements a neural network with a variable number of hidden layers and hidden units.
     You may use this function to parametrize your policy and critic networks.
+
+    Helper functions, not necessary
     '''
     def __init__(self, input_dim: int, output_dim: int, hidden_size: int, 
                                 hidden_layers: int, activation: str):
